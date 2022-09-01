@@ -4,7 +4,7 @@ body{
     /* align-self: center; */
     justify-content: center;
     background-color: rgb(171, 171, 171);
-    align-items: center;
+    /* align-items: center; */
 
 
 }
@@ -23,7 +23,7 @@ main{
 }
 .formCon{
     margin:2% 8% ;
-    justify-content:space-evenly
+    /* justify-content:center; */
 }
 h1{
     padding: 6% 0%;
@@ -70,4 +70,7 @@ h1{
 .inputLen{
     width: 75%;
     margin-top: 5%;
+}
+input[type="radio" i]{
+    margin-left: 0;
 }
