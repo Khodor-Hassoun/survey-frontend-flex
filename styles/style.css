@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+}
+div{
+    /* width: ; */
+    margin: 2% 18% 2% 1%;
+    padding-right: 15px;
+}
+/* .flex p{
+    display: block;
+    width: 100%;
+} */
+.break {
+	flex-basis: 100%;
+}
