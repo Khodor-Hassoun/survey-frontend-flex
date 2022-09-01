@@ -1,32 +1,47 @@
-main{
-    background-color: rgb(171, 171, 171);
-    color: #78373e;
+body{
+    display: flex;
+    /* width: 60%; */
+    /* align-self: center; */
     justify-content: center;
+    background-color: rgb(171, 171, 171);
+    align-items: center;
 
-    
+
+}
+main{
+    background-color: #e5e5e5;
+    color: #78373e;
+    /* justify-content: center; */
+    width: 60%;
+    /* align-items: center; */
+    align-self: center;
+    align-items: center;
 }
 .flex {
     display: flex;
     margin-bottom: 30px;
 }
 .formCon{
-    margin:5% 10% ;
+    margin:2% 8% ;
     justify-content:space-evenly
 }
 h1{
-    padding: 4% 30%;
+    padding: 6% 0%;
     margin: 0;
     text-align: center;
-    background-color: #e5e5e5;
+    width: 100%;
 }
-/*
-div{
-    margin: 2% 18% 2% 1%;
-    /* padding-right: 15px; */
-
-.row2{
+.whiteboy{
+    background-color: white;
+}
+.inputs{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+/* .row2{
     margin-left: 100px;
-}
+} */
 .columbo{
     flex-direction: column;
 }
@@ -38,9 +53,21 @@ div{
     margin-top: 15px;
 }
 .btnSec{
-    margin-top: 15px;
-    margin-left: 30%;
+    /* align-self: center; */
+    justify-content: center;
+}
+.btnSec button{
+    padding: 1% 7%;
+    background-color: gray;
+    color: white;
+    border: 1 ridge red;
+    border-radius: 5px;
+    align-self: center;
 }
 .leftside{
     margin-left: 0%;
+}
+.inputLen{
+    width: 75%;
+    margin-top: 5%;
 }
